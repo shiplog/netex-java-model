@@ -63,9 +63,9 @@
     </properties>
 
     <scm>
-        <connection>scm:git:ssh://git@github.com/entur/netex-java-model.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/entur/netex-java-model.git</developerConnection>
-        <url>https://github.com/entur/netex-java-model/tree/master</url>
+        <connection>scm:git:ssh://git@github.com/shiplog/netex-java-model.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/shiplog/netex-java-model.git</developerConnection>
+        <url>https://github.com/shiplog/netex-java-model/tree/master</url>
       <tag>HEAD</tag>
   </scm>
 
@@ -77,8 +77,8 @@
     <distributionManagement>
         <snapshotRepository>
             <id>snapshots</id>
-            <name>entur2-snapshots</name>
-            <url>https://entur2.jfrog.io/entur2/libs-snapshot-local</url>
+            <name>shiplog-snapshots</name>
+            <url>https://shiplog.jfrog.io/shiplog/libs-snapshot-local</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -258,7 +258,7 @@
                             convention. This makes it easier for other tools like Intellij and Eclipse to auto
                             detect the generated source.
                              -->
-                            <sourceRoot>${build.directory}/generated-sources/xjc</sourceRoot>
+                            <sourceRoot>${project.build.directory}/generated-sources/xjc</sourceRoot>
                             <xsdOptions>
                                 <xsdOption>
                                     <xsd>
