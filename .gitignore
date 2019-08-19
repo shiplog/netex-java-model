@@ -11,3 +11,6 @@ profile
 .idea
 *.iml
 src/main/resources/xsd/
+.classpath
+.project
+.settings
