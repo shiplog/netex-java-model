@@ -1,12 +1,23 @@
-# netex-java-model
+# netex-java-model :: Grieg Connect style
 
 Downloads the NeTEx-XML XSD files from https://github.com/entur/NeTEx and generates java model using jaxb.
 
 You need xmlstarlet installed.
 
-```mvn clean install```
+Build and deploy with Docker
 
+## Docker build
 
-## Maven central
-This project is available in the central maven repository.
-See https://search.maven.org/#search%7Cga%7C1%7Cg%3A%22org.entur%22
+`make docker-build`
+
+## Install snapshot locally
+
+`make install`
+
+## Deploy snapshot to Artifactory
+
+`make deploy`
+
+## Release and deploy to Artifactory
+
+`make release`
